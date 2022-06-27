@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_Projekt.Akce">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Projekt!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Label Text="Akcelerometr..." FontSize="30" Padding="30,0,30,0" HorizontalTextAlignment="Center"/>
+            <Label Text="{Binding ErrorString}" FontSize="Title" Padding="30,10,30,10"/>
+            <Label Text="{Binding Reading}" FontSize="16" Padding="30,0,30,0" HorizontalTextAlignment="Center"/>
+            <Label Text="...to przetwornik dokonujący pomiaru przyśpieszenia liniowego i kątowego, czyli mierzący własny ruch. Może on określać położenie w 1, 2 albo 3 osiach (X/Y/Z). Obecnie najpopularniejsze są sensory 3-osiowe. Te składają się z 3 akcelerometrów – każdy z nich mierzy jedną oś." FontSize="16" Padding="30,30,30,30" HorizontalTextAlignment="Center"/>
+            <Label Text="Gdy dochodzi do odchyleń albo wibracji, energia drgań zamienia się w sygnał elektryczny, będący wprost proporcjonalny do przyspieszenia urządzenia. Sygnał zostaje przesłany do właściwych podzespołów w celu przedsięwzięcia odpowiednich działań." FontSize="16" Padding="30,30,30,30" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
